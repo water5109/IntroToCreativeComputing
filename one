@@ -19,5 +19,11 @@ function setup() {
   // Width and height are 50 x 50
   image(img, 10, 10, 50, 50);
 }
+
+function draw() {
+  if (mouseIsPressed) {
+    noStroke();
+    ellipse(mouseX,mouseY,1,1);
+  }
   </body>
 </html>

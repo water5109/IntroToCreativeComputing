@@ -7,9 +7,7 @@
     <style>
         html, body {margin:0; padding:0; overflow:hidden;}
     </style>
-  </head>
-  <body>
-  let img;
+    let img;
 function preload() {
   img = loadImage('one.jpg');
 }
@@ -25,5 +23,7 @@ function draw() {
     noStroke();
     ellipse(mouseX,mouseY,1,1);
   }
+  </head>
+  <body>
   </body>
 </html>
